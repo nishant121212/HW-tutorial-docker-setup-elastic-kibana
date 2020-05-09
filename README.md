@@ -13,7 +13,6 @@ Guide to setup Elastic and Kibana using docker.
        -e  set env variables
        --name  name your container
        --link  link another container
-       rm   remove
     3. docker ps : list started containers
        -a  all
     4. docker stop/start <container_name/container_id>
