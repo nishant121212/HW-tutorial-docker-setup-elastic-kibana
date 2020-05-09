@@ -1,2 +1,3 @@
-# HW-tutorial-docker-setup-elastic-kibana
-Following hello-world tutorial. Instead of creating sample txt files, I will be adding scripts to setup ELASTIC and KIBANA using docker.
+# docker-setup-elastic-kibana
+## Editing read me
+Guide to setup Elastic and Kibana using docker. 
