@@ -1,4 +1,4 @@
-# docker-setup-elastic-kibana
+# DOCKER-SETUP-ELASTIC-KIBANA
 Guide to setup Elastic and Kibana using docker. 
 
 ### Prerequisites:
@@ -13,11 +13,11 @@ Guide to setup Elastic and Kibana using docker.
        -e  set env variables
        --name  name your container
        --link  link another container
+       rm   remove
     3. docker ps : list started containers
        -a  all
     4. docker stop/start <container_name/container_id>
     
-### Setup
 #### Network
     docker network create elk
 #### ELastic    
@@ -37,5 +37,9 @@ http://localhost:9200/_nodes?pretty
         -p 5601:5601 
         kibana:7.6.2
 http://localhost:5601/app/kibana
-    
+
+
+### Run instructions
+    chmod +x elk.sh
+    ./elk.sh
     
