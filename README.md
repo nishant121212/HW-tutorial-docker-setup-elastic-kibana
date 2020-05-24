@@ -2,7 +2,7 @@
 Guide to setup Elastic and Kibana using docker. 
 
 ### Prerequisites:
-    Docker, recommended: 2.2+
+    Docker Engine/Host
     
 ### Some useful docker commands
     1. docker network create <network_name> : create network. We will be running elastic and kibana in same network.
